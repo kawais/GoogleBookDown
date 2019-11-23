@@ -67,8 +67,8 @@ var html = '<div id="savePNG">' +
     '<span>There are max </span> ' +
     '<input type="text" id="total" value="---" readonly> ' +
     '<span>pages available. Input the page range to download </span> ' +
-    '<input type="text" id="count" value="0"> ' +
-    '<input type="text" id="max" value="0"> ' +
+    '<br>from<input type="text" id="count" value="0"> ' +
+    'to<input type="text" id="max" value="0"> ' +
     '<span>.</span> ' +
     '<button>Start</button>' +
     '<input type="radio" name="saveAs" value="pdf" checked>pdf <input type="radio" name="saveAs" value="zip">zip'+
